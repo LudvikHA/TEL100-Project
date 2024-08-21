@@ -71,7 +71,6 @@ void setup() {
 
 void loop() {
   ArduinoCloud.update();
-  // Your code here 
 
   //Read the sensor values and outputs the distance in cm
   leftDistance = leftSensor.read();
